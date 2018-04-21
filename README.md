@@ -5,9 +5,9 @@ Load testing tool to stress MQTT message broker
 ## Build
 
 ```
-$ mkdir -p ${GOPATH}/src/github.com/inovex/
-$ git clone https://github.com/inovex/mqtt-stresser.git ${GOPATH}/src/github.com/inovex/mqtt-stresser/
-$ cd ${GOPATH}/src/github.com/inovex/mqtt-stresser/
+$ go get github.com/eclipse/paho.mqtt.golang
+$ git clone https://github.com/inovex/mqtt-stresser.git 
+$ cd mqtt-stresser/
 $ make
 ```
 
